@@ -1,0 +1,64 @@
+/****ADMIN****/
+
+.admin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #5D89DA;
+    padding: 50px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.admin h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.admin a .retour {
+    background-color: #FFC252;
+}
+
+thead {
+    background-color: #1C385E;
+}
+
+th {
+    color: #FFC252;
+}
+
+
+tr {
+    color: #FFF;
+}
+
+tbody {
+    background-color: #326295;
+}
+
+.help-inline {
+    color: red;
+}
+
+.info {
+    color: #FFF;
+}
+
+.admin form {
+    color: #FFF;
+}
+
+.btn-white{
+    background-color: white;
+}
+
+.alert{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 210%;
+}
+
+@media screen and (max-width: 576px){
+    .alert{
+        width: 300px;
+    }
+}

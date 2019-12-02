@@ -1,0 +1,123 @@
+/* PROFILE*/
+
+.profil{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    background: #326295;
+    border-radius: 5px;
+}
+
+.profil h3{
+    color: #FFC252;
+    font-size: 160%;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid 2px #FFC252;
+    padding-bottom: 10px;
+}
+
+.profil .yellow-line{
+    margin-bottom: 20px;
+}
+
+
+.profil .information{
+    padding: 10px;
+    color: white;
+}
+
+.profil .information .avatar{
+    width: 172px;
+    height: 172px;
+    float: left;
+    border-radius: 5px;
+}
+
+.profil .p_description p{
+    text-align: left;
+    margin-right: 20px;
+}
+
+.profil .information .p_description li{
+    text-align: left;
+}
+
+.profil .information .activity {
+    border-left: 2px solid #1C385E;
+    text-align: center;
+}
+
+@media all and (max-width: 992px){
+    .profil .information .activity{
+        border-left: none;
+        margin: 5% 0;
+    }
+}
+
+.profil .organisation {
+    overflow: hidden;
+}
+
+button {
+    background-color: #FFC252;
+    border-style: none;
+    border-radius: 5px;
+    padding: 2px 15px 4px 15px;
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+button:active {
+    background-color: orange;
+    transform: translate(5px, 5px);
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+img{
+    max-width: 230px;
+}
+
+@media screen and (min-height: 650px) and (min-width: 700px) {
+  .footer-page{
+      position: fixed;
+      bottom: 0;
+  }
+}
+
+.btn-activity{
+    margin-left: 5px;
+}
+
+.btn-bottom{
+    margin-top: 20px;
+}
+
+.value{
+    display: block;
+    width: 250px;
+    height: 28px;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px #FFC252;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.description .value{
+    height: 50px;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a {
+    color: #000000;
+}

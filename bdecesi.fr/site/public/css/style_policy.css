@@ -1,0 +1,43 @@
+.title
+{
+  color: #FFC252;
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #326295;
+}
+
+.site
+{
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 15px;
+  background-color: #326295;
+  margin-bottom: 15px;
+}
+
+.title-divider
+{
+	width: 1000px;
+	height: 2.5px;
+	background: #FFC252;
+	margin: 20px auto;
+}
+
+.sous-title h1
+{
+  color: #FFC252;
+  font-size: 40px;
+}
+
+.sous-title p
+{
+  color: #FFF;
+  text-align : justify;
+}	
+
+.about
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}

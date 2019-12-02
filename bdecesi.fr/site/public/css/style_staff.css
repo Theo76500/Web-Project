@@ -1,0 +1,40 @@
+thead {
+    background-color: #1C385E;
+}
+
+th {
+    color: #FFC252;
+}
+
+
+tr {
+    color: #FFF;
+}
+
+tbody {
+    background-color: #326295;
+}
+
+button{
+    color: white;
+}
+
+@media screen and (min-height: 650px) and (min-width: 700px) {
+  .footer-page {
+      position: fixed;
+      bottom: 0;
+  }
+}
+
+a{
+    color: white;
+}
+
+.redirect{
+	color: blue;
+}
+
+.container-staff{
+	margin-top: 100px;
+	margin-bottom: 659px;
+}

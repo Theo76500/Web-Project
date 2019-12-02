@@ -1,0 +1,203 @@
+/*--- LOGIN/REGISTER ---*/
+
+html {
+    font-family: Roboto sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 160%;
+    color: #FFC252;
+}
+
+p{
+    color: white;
+}
+
+main {
+    background-color: #326295;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.login {
+    background-color: #326295;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 228px;
+}
+
+.registration {
+    background-color: #326295;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 228px;
+}
+
+label {
+    color: #ffffff;
+}
+
+button, .button-success{
+    background-color: #FFC252;
+    border-style: none;
+    border-radius: 5px;
+    padding: 2px 15px 4px 15px;
+}
+
+button:hover, .button-success:hover {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+button:active, .button-success:active {
+    background-color: orange;
+    transform: translate(5px, 5px);
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+.btn-no{
+    position: relative;
+}
+
+.btn-submit{
+    position: relative;
+    top: 2px;
+    margin-left: 20px;
+}
+
+.container{
+    padding-bottom: 25px;
+}
+
+.button-success{
+    padding: 3px 15px 6px 15px;
+}
+
+.button-login {
+    text-align: center;
+}
+
+.button-register{
+    text-align: right;
+    padding-top: 30px;
+}
+
+.header-body {
+    text-align: center;
+    border-bottom: solid 2px #FFC252;
+    background-color: #326295;
+    margin: 20px 5% 10px 5%;
+    padding-top: 10px;
+}
+
+.ul-body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.li-body {
+    display: inline;
+    color: grey;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-height: 650px) and (min-width: 700px) {
+  .footer-page{
+      position: fixed;
+      bottom: 0;
+  }
+}
+
+.footer-body {
+    text-align: center;
+    background-color: #1C385E;
+    margin: 20px 0 20px;
+    border-radius: 0 0 5px 5px;
+    padding: 10px 0 15px 0;
+}
+
+optgroup{
+    color: #FFC252;
+}
+
+option{
+    color: #000000;
+}
+
+.dispnone{
+    display: none;
+}
+
+.secure-login{
+}
+
+.secure-login li {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.secure-login-btn{
+    display: flex;
+    height: 50px;
+}
+
+a[class="button-success"]{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    padding: 7px;
+}
+
+.secure-login-btn a{
+    width: 400px;
+    margin-right: 50px;
+}
+
+.secure-login-btn button{
+    width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .login {
+        margin-bottom: 12%;
+    }
+
+    .registration {
+        margin-bottom: 6%;
+    }
+}
+
+.invalid{
+    background-color: #ff9393!important;
+}
+
+.valid{
+    background-color: #61ed84!important;
+}
+
+small{
+    color: white;
+}
